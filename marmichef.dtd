@@ -1,0 +1,17 @@
+<!ELEMENT marmichef (titre, image, ingredients+, etapes+, commentaires*)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (qte, unite, libelle)>
+<!ELEMENT qte (#PCDATA)>
+<!ELEMENT unite (#PCDATA)>
+<!ELEMENT libelle (#PCDATA)>
+<!ELEMENT etapes (etape+)>
+<!ELEMENT etape (#PCDATA)>
+<!ELEMENT commentaires (commentaire+)>
+<!ELEMENT commentaire (nom, note, libelle)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST titre difficulte (1|2|3|4|5) #REQUIRED>
+<!ATTLIST titre cout (1|2|3|4|5) #REQUIRED>
+

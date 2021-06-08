@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="SilverhandFace.xsl" type="text/xsl"?>
+<!DOCTYPE marmichef SYSTEM "./marmichef.dtd">
+
+<marmichef>
+    <titre difficulte ="3" cout = "5"> Recette du Johnny Silverhand </titre>
+    <image>./img/</image>
+
+    <ingredients>
+        <ingredient>
+            <qte> 60 </qte>
+            <unite > ml </unite>
+            <libelle > de Tequila (reposée ou âgée) </libelle>
+        </ingredient>
+
+        <ingredient>
+            <qte> 5 </qte>
+            <unite > ml </unite >
+            <libelle > de nectar d&apos;Agave </libelle>
+        </ingredient>
+
+        <ingredient>
+            <qte> 2-3 </qte>
+            <unite > traits </unite >
+            <libelle > d &apos;Angostura (Tonic à base de Rhum) </libelle>
+        </ingredient>
+
+        <ingredient>
+            <qte> 30 </qte>
+            <unite > ml </unite >
+            <libelle > de bière (Mexicaine, type Corona) </libelle>
+        </ingredient>
+
+        <ingredient>
+            <qte> 1 </qte>
+            <unite > tranche </unite >
+            <libelle > d &apos;orange (avec son zeste) </libelle>
+        </ingredient>
+
+        <ingredient>
+            <qte> 1 </qte>
+            <unite> pincée </unite>
+            <libelle> de piment en poudre </libelle>
+        </ingredient>
+    </ingredients>
+    
+    <etapes>
+        <etape>Ajoutez la tequila, le tonic et le nectar d &apos;agave dans un verre rempli de glaçons puis mélangez.</etape>
+        <etape>Tranchez une fine tranche d &apos;orange, pressez-en quelques gouttes dans le verre puis ajoutez la tranche par dessus l&apos;ensemble.</etape>
+        <etape>Ajoutez la bière, puis saupoudrez une fine couche de piment sur le bord du verre. </etape>
+        <etape>Consommez! (avec modération) </etape >
+    </etapes>
+
+    <commentaires>
+        <commentaire>
+            <nom > Johnny </nom >
+            <note>5</note>
+            <libelle>BREATHTAKING!</libelle>
+        </commentaire>
+
+          <commentaire>
+            <nom > V </nom >
+            <note>1</note>
+            <libelle>Mâl de crane assuré...</libelle>
+        </commentaire>
+    </commentaires>
+
+</marmichef>
